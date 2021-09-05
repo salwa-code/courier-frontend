@@ -1,13 +1,13 @@
-
-import './App.css';
-
-
-import Form from './Components/Form';
+import Header from './components/Header'
+import MakeOrder from './components/MakeOrder'
+import Buttons from './components/Buttons'
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Header />
+      <MakeOrder />
+      <Buttons />
     </div>
   );
 }
