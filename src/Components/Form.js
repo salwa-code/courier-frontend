@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-
-
-const Form = ({ placeHolder, title }) => {
-    return (
-        <form>
-            <h3>{title}</h3>
-            <input type='text' placeholder={placeHolder}/>         
-        </form>
-
-    )
-}
-export default Form
-=======
 import React, { useState } from 'react';
 import '../Components/Form.css';
 import FormSignup from '../Components/FormSignup';
@@ -40,4 +26,3 @@ const Form = () => {
 };
 
 export default Form;
->>>>>>> sign-up-ft
