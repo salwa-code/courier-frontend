@@ -1,6 +1,6 @@
-import Header from './components/Header'
-import MakeOrder from './components/MakeOrder'
-import Buttons from './components/Buttons'
+import Header from './Components/Header'
+import MakeOrder from './Components/MakeOrder'
+import Buttons from './Components/Buttons'
 
 function App() {
   return (
