@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Profile.css'
 
-export const Profile = () => {
+ const Profile = () => {
     return (
         <div className="profile__card">
               <div className="img__profile">
@@ -30,3 +30,5 @@ export const Profile = () => {
         </div>
     )
 }
+
+export default Profile;
