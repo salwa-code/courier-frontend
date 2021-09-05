@@ -3,8 +3,8 @@ import Button from './Button'
 const Buttons = () => {
     return (
         <div className='button-container'>
-            <Button text='Cancel'/>
-            <Button text='Create Order'/>
+            <Button className='cancel-button' text='Cancel'/>
+            <Button type='submit' text='Create Order'/>
         </div>
     )
 }

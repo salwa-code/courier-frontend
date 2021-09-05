@@ -1,8 +1,8 @@
 
-const Button = ({ text }) => {
+const Button = ({ text, type }) => {
     return (
         <div >
-            <button className='button'>{text}</button>            
+            <button type={type} className='button'>{text}</button>            
         </div>
     )
 }

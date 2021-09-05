@@ -8,6 +8,7 @@
   margin: 50px auto;
   width: 50rem;
   background-color: #e0e0e0;
+  padding-right: 2rem;
 }
 
 /* Header Style */
@@ -97,6 +98,7 @@ ol li::before{
 input, textarea {
   border: none;
   border-bottom: 1px solid;
+  background-color: transparent;
 }
 
 input:focus, textarea:focus {
@@ -124,6 +126,7 @@ textarea {
 .button-container{
   display: flex;
   justify-content: space-between;
+  margin-left: 2.5rem;
 }
 
 .button{
@@ -137,4 +140,9 @@ textarea {
   /* position: relative; */
   left: 70rem;
   margin-bottom: 10px;
+  cursor:pointer;
+}
+
+.button:hover{
+  background-color: #d67c28;
 }
