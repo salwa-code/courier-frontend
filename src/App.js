@@ -1,13 +1,22 @@
-import './App.css';
-import Header from './Components/Header';
-import Section from './Components/Section';
+import React from 'react';
 
+
+import Profile from './Components/Profile';
+import Header from './Components/Header'
+import MakeOrder from './Components/MakeOrder'
+import Buttons from './Components/Buttons'
+
+import './App.css';
+import Form from './Components/Form';
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Section/>
+      <Profile />
+      <Header />
+      <MakeOrder />
+      <Buttons />
+      <Form />
     </div>
   );
 }
