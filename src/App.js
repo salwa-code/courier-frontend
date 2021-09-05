@@ -1,13 +1,12 @@
+import React from 'react';
 
-import './App.css';
 
-
-import Form from './Components/Form';
+import Profile from './Components/Profile';
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Profile />
     </div>
   );
 }
