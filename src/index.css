@@ -147,3 +147,7 @@ textarea {
 .button:hover{
   background-color: #d67c28;
 }
+
+.cancel {
+  background-color: #e0e0e0;
+}

@@ -1,13 +1,9 @@
-import Header from './Components/Header'
-import MakeOrder from './Components/MakeOrder'
-import Buttons from './Components/Buttons'
+import CreateOrder from './Components/CreateOrder'
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MakeOrder />
-      <Buttons />
+      <CreateOrder/>
     </div>
   );
 }
