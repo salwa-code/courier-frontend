@@ -9,8 +9,8 @@ const Distance = () => {
                     <th>Time</th>
                 </tr>
                 <tr>
-                    <td>600km</td>
-                    <td>4 hours</td>
+                    <td><input/></td>
+                    <td><input/></td>
                 </tr>
             </table>
         </div>

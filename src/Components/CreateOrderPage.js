@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './CreateOrder/Header'
 import MakeOrder from './CreateOrder/MakeOrder'
 
-const CreateOrder = () => {
+const CreateOrderPage = () => {
     return (
         <div>
             <Header />
@@ -11,4 +11,4 @@ const CreateOrder = () => {
     )
 }
 
-export default CreateOrder
+export default CreateOrderPage

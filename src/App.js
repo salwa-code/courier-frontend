@@ -1,10 +1,17 @@
+import React from 'react'
 import './index.css'
-import CreateOrder from './Components/CreateOrder'
+import Login from './Components/Login'
+import Orders from './Components/Orders'
+import './App.css'
+import CreateOrderPage from './Components/CreateOrderPage'
+
 
 function App() {
   return (
     <div className="App">
-      <CreateOrder/>
+      <Login/>
+      <Orders/>
+      <CreateOrderPage/>
     </div>
   );
 }
