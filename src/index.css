@@ -9,6 +9,7 @@
   width: 50rem;
   background-color: #e0e0e0;
   padding-right: 2rem;
+  box-shadow: 0 0 10px #F49033;
 }
 
 /* Header Style */
@@ -83,7 +84,6 @@ ol li::before{
 }
 
 .form {
-  background-color: #e9cfb7;
   margin-left: 2.5rem;
 }
 
@@ -146,4 +146,8 @@ textarea {
 
 .button:hover{
   background-color: #d67c28;
+}
+
+.cancel {
+  background-color: #e0e0e0;
 }

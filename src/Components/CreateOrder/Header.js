@@ -1,10 +1,9 @@
 import React from 'react'
-import "./Header.css"
 
-const OrderHeader = () => {
+const Header = () => {
     return (
-        <div>
-        <nav className = "navbar">
+        <header className ='navbar'>  
+            
             <div className = "logo">
                 <h1>Safe Courier</h1>
             </div>
@@ -16,10 +15,9 @@ const OrderHeader = () => {
 
             </div>
          
-        </nav>
-        <img className = "image" src="https://res.cloudinary.com/awesomeone-maria/image/upload/v1630576323/capstone%20Project/undraw_takeout_boxes_ap54_xamxen.svg" alt="Delivery" />
-        </div>
+        
+        </header>
     )
 }
 
-export default OrderHeader
+export default Header
