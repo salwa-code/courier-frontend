@@ -1,19 +1,10 @@
-import React from 'react';
-import Login from './Components/Login';
-
-import Signup from './Components/Signup';
-import Orders from './Components/Orders';
-
+import './index.css'
+import CreateOrder from './Components/CreateOrder'
 
 function App() {
   return (
     <div className="App">
-      <Login/>
-      <Signup/>
-      <Orders/>
-      
-
-      
+      <CreateOrder/>
     </div>
   );
 }
